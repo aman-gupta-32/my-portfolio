@@ -6,7 +6,7 @@ export default function Contact({ contactSectionRef }) {
       <h1>Contact Me</h1>
       <div className="personal-details">
         <figure>
-          <img src="/location_icon.png" alt="Nothing was find" />
+          <img src="./location_icon.png" alt="Nothing was find" />
           <figcaption>
             <h5>ADDRESS</h5>
           </figcaption>
@@ -15,7 +15,7 @@ export default function Contact({ contactSectionRef }) {
           </figcaption>
         </figure>
         <figure>
-          <img src="/email_icon.png" alt="Nothing was find" />
+          <img src="./email_icon.png" alt="Nothing was find" />
           <figcaption>
             <h5>EMAIL ADDRESS</h5>
           </figcaption>
@@ -24,7 +24,7 @@ export default function Contact({ contactSectionRef }) {
           </figcaption>
         </figure>
         <figure>
-          <img src="/resume_icon.png" alt="Nothing was find" />
+          <img src="./resume_icon.png" alt="Nothing was find" />
           <figcaption>
             <h5>RESUME</h5>
           </figcaption>
