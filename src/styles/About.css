@@ -1,0 +1,38 @@
+.about-parent-container h1 {
+  color: #15f5ba;
+  padding-bottom: 2rem;
+}
+
+.about-parent-container p {
+  font-size: x-large;
+  color: white;
+}
+
+.about-parent-container {
+  width: 50rem;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 575px) {
+  .about-parent-container p {
+    font-size: small;
+  }
+
+  .about-parent-container {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 769px) {
+  .about-parent-container {
+    margin-left: 1rem;
+    overflow-x: hidden;
+    width: fit-content;
+  }
+  .about-parent-container p {
+    font-size: 1rem;
+  }
+}

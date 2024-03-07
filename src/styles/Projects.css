@@ -1,0 +1,64 @@
+.projects-parent-container h1 {
+  color: #15f5ba;
+  padding-bottom: 2rem;
+  margin-top: 15rem;
+}
+
+.projects-parent-container .row .col .card h5 {
+  color: #15f5ba;
+}
+
+.projects-parent-container {
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 57rem;
+  align-items: center;
+}
+
+/* .projects-parent-container .row .col {
+} */
+
+.projects-parent-container .row .col .card .card-img-top {
+  height: 10rem;
+}
+
+@media (max-width: 968px) {
+  .projects-parent-container .row-cols-md-3 {
+    width: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .projects-parent-container {
+    width: fit-content;
+  }
+
+  .projects-parent-container .row-cols-md-3 {
+    margin-right: 20rem;
+    margin-left: 3%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 769px) {
+  .projects-parent-container {
+    width: fit-content;
+    margin-left: 14rem;
+    overflow-x: hidden;
+  }
+
+  .projects-parent-container .row-cols-md-3 {
+    margin-right: 22rem;
+    margin-left: 10%;
+  }
+}
+
+
+.projects-parent-container .row .col a:hover {
+  filter: drop-shadow(0 0 30px rgba(97, 186, 246, 0.8));
+}
+
+.projects-parent-container .row .col .card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}

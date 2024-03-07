@@ -1,0 +1,75 @@
+.contact-parent-container h1 {
+  color: #15f5ba;
+  padding-bottom: 2rem;
+  margin-top: 15rem;
+}
+
+.contact-parent-container .personal-details img {
+  width: fit-content;
+  height: 5rem;
+  margin: 2rem 10rem;
+}
+
+.contact-parent-container .personal-details {
+  display: flex;
+  justify-content: center;
+
+  figure {
+    text-align: center;
+  }
+}
+
+.contact-parent-container .personal-details figcaption {
+  color: white;
+}
+
+.contact-parent-container .personal-details h5 {
+  color: #3fc5f0;
+}
+
+.contact-parent-container .social-media {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-parent-container .social-media ion-icon {
+  color: #15f5ba;
+  font-size: xx-large;
+  margin: 0rem 1rem;
+}
+
+.social-media p {
+  color: white;
+}
+
+.contact-parent-container .social-media ion-icon:hover {
+  color: white;
+}
+
+@media (max-width: 575px) {
+  .contact-parent-container .personal-details {
+    flex-direction: column;
+  }
+
+  .contact-parent-container .personal-details img {
+    margin: 0;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 769px) {
+  .contact-parent-container .personal-details {
+    flex-direction: column;
+    margin-left: 5%;
+  }
+
+  .contact-parent-container h1 {
+    margin-left: 5%;
+  }
+
+  .contact-parent-container .personal-details img {
+    margin: 0;
+    margin-top: 1rem;
+  }
+}

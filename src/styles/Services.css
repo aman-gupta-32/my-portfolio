@@ -1,0 +1,57 @@
+.services-parent-container h1 {
+  color: #15f5ba;
+  padding-bottom: 2rem;
+  margin-top: 12rem;
+}
+
+.services-parent-container {
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  overflow-x: hidden;
+}
+
+.services-parent-container .row .col .card {
+  height: 30rem;
+}
+
+.services-parent-container .row .col .card .card-img-top {
+  height: 10rem;
+}
+
+.services-parent-container .row .col .card .btn {
+  color: #15f5ba;
+  border-color: #41adb7;
+  --bs-btn-hover-bg: #5397de;
+}
+
+.services-parent-container .row .col .card h5 {
+  color: #15f5ba;
+}
+
+@media (max-width: 968px) {
+  .services-parent-container .row-cols-md-3 .col {
+    margin-left: 12%;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 769px) {
+  .services-parent-container .row-cols-md-3 .col {
+    margin-left: 30%;
+    overflow-x: hidden;
+    width: fit-content;
+  }
+
+  .services-parent-container {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .services-parent-container .row-cols-md-3 .col {
+    margin-left: 12%;
+    overflow-x: hidden;
+  }
+}
