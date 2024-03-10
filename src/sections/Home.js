@@ -11,14 +11,13 @@ export default function Home({ homeSectionRef }) {
             <div className="col-sm-7 p-3" id="col-custom">
               <div className="intro-container">
                 <p className="intro">
-                  <h4>Hi, Myself</h4>
+                  <h4>Hi, I'm</h4>
                   <h1>Aman Gupta</h1>
-                  <h4>And I'm a FullStack Developer.</h4>
+                  <h4>FullStack Developer</h4>
                 </p>
                 <br />
                 <p className="intro">
-                  I'm a Full Stack Developer with a passion for crafting
-                  seamless digital experiences.
+                  Passionate about crafting seamless digital experiences.
                 </p>
               </div>
             </div>
